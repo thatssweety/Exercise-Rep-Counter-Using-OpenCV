@@ -1,6 +1,5 @@
 # Exercise-Rep-Counter-Using-OpenCV
 ![](https://github.com/thatssweety/Exercise-Rep-Counter-Using-OpenCV/blob/368f5f0efa786edf8f9b8275bf73cf52e5ef820c/rep%20count%20output1.gif)
-
 #       Rep count for Knee Bend Exercise           
 
 ## **Tech Stack Used** 
@@ -48,6 +47,8 @@ def calculate_angle(a,b,c):
   
   stretch_position=0;
 bend_position=0;
+
+![](https://github.com/thatssweety/Exercise-Rep-Counter-Using-OpenCV/blob/de850212d1ab97079f7db78bc97a122572561fd6/vlcsnap-2022-12-31-13h31m40s360.jpg)
 
 
 ## Rep Count Code
