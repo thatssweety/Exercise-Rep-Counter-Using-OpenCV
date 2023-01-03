@@ -1,12 +1,12 @@
-## Exercise-Rep-Counter-Using-OpenCV
+# Exercise-Rep-Counter-Using-OpenCV
 ![](https://github.com/thatssweety/Exercise-Rep-Counter-Using-OpenCV/blob/368f5f0efa786edf8f9b8275bf73cf52e5ef820c/rep%20count%20output1.gif)
-#  **Tech Stack Used** 
+## **Tech Stack Used** 
 
 1. OpenCV
 2. MediaPipe
 3. Numpy
 
-# Importing library and video image
+## Importing library and video image
 
 ```python
 
@@ -26,7 +26,7 @@ mp_pose = mp.solutions.pose
 cap = cv2.VideoCapture("/content/drive/MyDrive/Knee bend/KneeBendVideo.mp4")
 
 ```
-# Method for calculating angle
+## Method for calculating angle
 
 ```python
 def calculate_angle(a,b,c):
@@ -47,7 +47,7 @@ def calculate_angle(a,b,c):
 bend_position=0;
 
 
-# Rep Count Code
+## Rep Count Code
      
 ```python
 
