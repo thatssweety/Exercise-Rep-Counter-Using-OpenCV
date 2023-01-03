@@ -45,8 +45,7 @@ def calculate_angle(a,b,c):
     return angle
   ```
   
-  stretch_position=0;
-bend_position=0;
+  
 
 ![](https://github.com/thatssweety/Exercise-Rep-Counter-Using-OpenCV/blob/de850212d1ab97079f7db78bc97a122572561fd6/vlcsnap-2022-12-31-13h31m40s360.jpg)
 
@@ -55,6 +54,8 @@ bend_position=0;
      
 ```python
 
+stretch_position=0;
+bend_position=0;
 counter = 0 
 stage = None
 width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH) + 0.5)
